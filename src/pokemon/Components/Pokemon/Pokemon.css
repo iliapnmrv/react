@@ -1,0 +1,10 @@
+.poke-page {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.poke-card {
+    min-width: 500px;
+}

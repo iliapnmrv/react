@@ -1,0 +1,33 @@
+.todoHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 54px 0px 10px;
+}
+
+h1 {
+    font-size: 26px;
+    text-align: center;
+    margin: 0px 0px;
+}
+
+.sort-btn {
+    justify-self: flex-end;
+    align-self: center;
+    margin: 0px -40px 0px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+input {
+    border: 1px solid gray;
+}
+
+input.hasNoTodos {
+    border-radius: 15px;
+}
+
+input.hasTodos {
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 0px;
+}

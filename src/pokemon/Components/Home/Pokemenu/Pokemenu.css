@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    padding: 0px;
+    margin: 5px 0px;
+    padding: 5px 0px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    color: inherit;
+}

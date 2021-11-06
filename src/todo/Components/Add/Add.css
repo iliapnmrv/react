@@ -1,0 +1,44 @@
+.add-button {
+    height: 42px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 18px auto;
+    position: relative;
+    cursor: pointer;
+}
+
+.add-button input {
+    width: 100%;
+    padding: 15px 30px 15px 0px;
+    font-size: 14px;
+    align-self: center;
+    background-color: #3A90E0;
+    border: 0px;
+    color: white;
+    border-radius: 71px;
+}
+
+.wrap {
+    width: 286px;
+    margin: 0px auto;
+}
+
+.plus-btn::after {
+    content: '+';
+}
+
+.plus-btn {
+    height: 42px;
+    width: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5376F1;
+    border-radius: 71px;
+    color: white;
+    position: absolute;
+    right: 0px;
+}
