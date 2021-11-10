@@ -14,6 +14,8 @@ export default function Home(props) {
 
     console.log(props.data);
 
+
+
     useEffect(
         _ => {
             setFiltered(data);
@@ -59,7 +61,7 @@ export default function Home(props) {
                 className="btn"
                 onClick={() => { getRandomPokemon(0, data.length) }}
             >Выберите покемона за меня</button>
-            <Pokemenu data={filtered} />
+            <Pokemenu data={filtered} unfiltered={data} />
         </>
     )
 }
